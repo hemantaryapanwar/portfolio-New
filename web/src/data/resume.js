@@ -14,7 +14,7 @@ export const profile = {
 };
 
 export const stats = [
-  { value: 2.5, suffix: '+', label: 'Years of experience' },
+  { value: 3, suffix: '+', label: 'Years of experience' },
   { value: 400, suffix: '+', label: 'LeetCode problems' },
   { value: 1730, suffix: '', label: 'CodeChef rating' },
 ];
@@ -71,9 +71,9 @@ export const projects = [
 
 export const skills = [
   { category: 'Languages', items: ['Java', 'C++', 'Python', 'JavaScript', 'SQL', 'HTML/CSS'] },
-  { category: 'Backend', items: ['Spring Boot', 'Node.js', 'JPA/Hibernate', 'Redis'] },
+  { category: 'Backend', items: ['Spring Boot', 'FastAPI', 'JPA/Hibernate','AWS', 'Redis'] },
   { category: 'Frontend', items: ['React', 'Redux', 'Angular.js'] },
-  { category: 'Data & Tools', items: ['PostgreSQL', 'MongoDB', 'Docker', 'Kubernetes', 'Postman', 'Cursor'] },
+  { category: 'Data & Tools', items: ['PostgreSQL', 'MongoDB', 'Docker', 'Kubernetes', 'Postman', 'Cursor', 'Claude'] },
 ];
 
 export const achievements = [

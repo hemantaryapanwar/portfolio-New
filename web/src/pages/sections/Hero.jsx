@@ -22,8 +22,8 @@ export default function Hero() {
 
         <FadeContent duration={700} delay={300} threshold={0}>
           <p className="mt-8 text-lg text-ink-soft max-w-xl">
-            I'm a Software Engineer at Deloitte with 2.5+ years shipping Java/Spring Boot
-            microservices and React/Redux SPAs. I care about clean APIs, fast queries, and
+            I'm a Software Engineer at Deloitte with 3+ years shipping Java/Spring Boot
+            microservices and React/Redux SPAs. I care about clean APIs, distributive system, fast queries, and
             interfaces that don't get in the way.
           </p>
 

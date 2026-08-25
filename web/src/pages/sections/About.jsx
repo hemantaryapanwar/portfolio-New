@@ -5,7 +5,7 @@ const facts = [
   { label: 'Based in', value: 'Gurgaon, India' },
   { label: 'Education', value: 'B.Tech CSE, IIIT Sonepat' },
   { label: 'Currently', value: 'SWE @ Deloitte' },
-  { label: 'Focus', value: 'Java · Spring Boot · React' },
+  { label: 'Focus', value: 'Backend Dev, Agentic AI' },
 ];
 
 export default function About() {
@@ -29,22 +29,21 @@ export default function About() {
         <FadeContent duration={700} delay={150} threshold={0.2}>
           <p className="text-sm tracking-wide text-ink-faint uppercase mb-4">About</p>
           <h2 className="font-serif text-3xl md:text-4xl text-ink mb-6">
-            Backend-leaning engineer who ships the whole stack.
+            Building, Solving & Exploring
           </h2>
           <div className="space-y-4 text-ink-soft leading-relaxed">
             <p>
-              I'm currently a Software Engineer at Deloitte, where I build and maintain RESTful
-              APIs with Spring Boot and pair them with responsive React/Redux front ends. Most of
-              my recent work sits around JPA/Hibernate, PostgreSQL, and securing services with
-              JWT and Spring Security — plus a custom search engine I built using inverted
-              indexing and a Trie-based autocomplete that cut query latency by 70%.
+              I’m a Software Engineer at Deloitte with a strong problem-solving 
+              mindset and an interest in building scalable, user-focused applications.
+               I enjoy working across the full stack, exploring new technologies, and 
+               solving challenging engineering problems. I’m particularly interested in 
+               Agentic AI and multi-agent systems, and how intelligent agents can be 
+               used to build more autonomous and efficient software.
             </p>
             <p>
-              Before that, I interned at Curer (Maven Lifecare Technologies), building
-              appointment and telehealth flows with Angular, Agora, and Firebase. I graduated
-              from {education.school.split('(')[0].trim()} with a B.Tech in Computer Science, and
-              outside of work I compete on LeetCode and CodeChef — partly for the practice,
-              partly because I just like solving puzzles (see the Games section).
+          I hold a B.Tech in Computer Science from the Indian Institute of Information Technology. 
+          Outside of work, I enjoy trekking and swimming, which help me stay active, 
+          curious, and balanced.
             </p>
           </div>
 
