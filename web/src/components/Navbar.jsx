@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { profile } from '../data/resume';
 
 const homeLinks = [
   { href: '#about', label: 'About' },
@@ -50,13 +49,12 @@ export default function Navbar() {
         </nav>
 
         <div className="hidden md:flex items-center gap-4">
-          <a
-            href={profile.links.resume}
-            download
+          <Link
+            to="/resume"
             className="text-sm border border-ink/70 rounded-full px-4 py-2 hover:bg-ink hover:text-paper transition-colors"
           >
             Resume
-          </a>
+          </Link>
         </div>
 
         <button
@@ -84,9 +82,9 @@ export default function Navbar() {
           <a href={sectionHref('#contact')} onClick={() => setOpen(false)}>
             Contact
           </a>
-          <a href={profile.links.resume} download>
+          <Link to="/resume" onClick={() => setOpen(false)}>
             Resume
-          </a>
+          </Link>
         </nav>
       )}
     </header>
