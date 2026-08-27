@@ -3,8 +3,6 @@ export const profile = {
   role: 'Software Engineer',
   location: 'Gurgaon, India',
   email: 'hemantaryapanwar545@gmail.com',
-  phone: '+91 99779 84759',
-  phoneHref: '+919977984759',
   links: {
     linkedin: 'https://www.linkedin.com/in/Hemant-arya-panwar/',
     github: 'https://github.com/hemantaryapanwar',

@@ -36,9 +36,6 @@ export default function Contact() {
             <a href={`mailto:${profile.email}`} className="hover:text-ink transition-colors">
               {profile.email}
             </a>
-            <a href={`tel:${profile.phoneHref}`} className="hover:text-ink transition-colors">
-              {profile.phone}
-            </a>
             <a href={profile.links.github} target="_blank" rel="noopener" className="hover:text-ink transition-colors">
               GitHub
             </a>
